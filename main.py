@@ -30,7 +30,6 @@ resources = {
     "milk": 200,
     "coffee": 100,
 }
-
 def is_recource_enough(order_composition):
   for item in order_composition:
     if order_composition[item] > resources[item]:
